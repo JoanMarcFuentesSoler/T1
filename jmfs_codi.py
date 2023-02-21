@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import soundfile as sf
 import sounddevice as sd      # Importem el mòdul sounddevice per accedir a la tarja de so
 from numpy.fft import fft     # Importem la funció fft
-"""
+
 # 1. Reprodueix l'exemple fent servir diferents freqüències per la sinusoide. 
 # Al menys considera 4 kHz, a banda d'una freqüència pròpia en el marge audible.Comenta els resultats.
 
@@ -258,7 +258,6 @@ plt.plot(fm1,(k/N)*fm1)               # Representació de la relació de l'index
 plt.xlabel('Index k')                 # Etiqueta de l'eix d'abscisses 
 plt.ylabel('k-Hz')                    # Etiqueta de la k
 plt.show()                            # Per mostrar els grafics
-"""
 
 # Representa la seva transformada en dB en funció de la freqüència, en el marge.
 
