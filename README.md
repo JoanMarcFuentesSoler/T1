@@ -337,6 +337,6 @@ Proves i exercicis a fer i entregar
   
   <img src="img/TF3_luzbel44.png" width="480" align="center">
   
-  - ...
+  - El rang determinat anteriorment no es posible de representar.
 - Quines son les freqüències més importants del segment triat?   
-  - ....
+  - Les freqüències més important son les freqüències més baix i les més altes ja que són més important i que determinen l'àudio.
