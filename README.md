@@ -141,7 +141,14 @@ plt.plot(k,np.unwrap(np.angle(X)))    # Representació de la fase de la transfor
 plt.xlabel('Index k')                 # Etiqueta de l'eix d'abscisses 
 plt.ylabel('$\phi_x[k]$')             # Etiqueta de la fase en Latex
 plt.show()                            # Per mostrar els grafics
-
+```
+- En el cas ```fx = 150Hz``` 
+  
+  <img src="img/Figure1_150Hz.png" width="480" align="center">
+- La Transformda de Fourier (```dB```) 
+  
+  <img src="img/TF1_150Hz.png" width="480" align="center">
+```python
 # Freqüència 4kHz
 fx=4000                              # Freqüència de la sinusoide
 x = A * np.cos(2 * PI * fx * t)     # Senyal sinusoidal
@@ -171,7 +178,15 @@ plt.plot(k,np.unwrap(np.angle(X)))   # Representació de la fase de la transform
 plt.xlabel('Index k')                 # Etiqueta de l'eix d'abscisses 
 plt.ylabel('$\phi_x[k]$')             # Etiqueta de la fase en Latex
 plt.show()                            # Per mostrar els gràfics
+```
+- En el cas ```fx = 4000Hz``` 
+  
+  <img src="img/Figure1_4kHz.png" width="480" align="center">
+- La Transformda de Fourier (```dB```) 
+  
+  <img src="img/TF1_4kHz.png" width="480" align="center">
 
+```python
 # Freqüència 6,5kHz
 fx=6500                              # Freqüència de la sinusoide 
 x = A * np.cos(2 * PI * fx * t)     # Senyal sinusoidal
@@ -202,6 +217,13 @@ plt.xlabel('Index k')                 # Etiqueta de l'eix d'abscisses
 plt.ylabel('$\phi_x[k]$')             # Etiqueta de la fase en Latex
 plt.show()                            # Per mostrar els grafics
 ```
+- En el cas ```fx = 6500Hz``` 
+  
+  <img src="img/Figure1_6k5Hz.png" width="480" align="center">
+- La Transformda de Fourier (```dB```) 
+  
+  <img src="img/TF1_6k5Hz.png" width="480" align="center">
+
    + Podem escoltar que a les freqüències inferiors a 4kHz, en el nostre cas ```fx = 150Hz``` podem escoltar que el so es més greu i en el cas ```fx2 = 6500Hz``` més agut. 
   
 ### 2. Modifica el programa per considerar com a senyal a analitzar el senyal del fitxer wav que has creat 
@@ -241,7 +263,7 @@ plt.show()                            # Per mostrar els gràfics
   <img src="img/Figure2_150Hz.png" width="480" align="center">
 - La Transformda de Fourier (```dB```) 
   
-  <img src="img/TF1_150Hz.png" width="480" align="center">
+  <img src="img/TF2_150Hz.png" width="480" align="center">
 
 - Explica el resultat del apartat anterior.
     - Podem veure en la darrera gràfica que quan tenim una freqüència més baixa tenim un periode més curt i l'espectre de la TF les freqüències més concentrades.
